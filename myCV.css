@@ -1,0 +1,125 @@
+.w3-steelblue,  .w3-hover-steelblue:hover {
+    color: #fff !important;
+    background-color: steelblue !important
+}
+.w3-text-steelblue {
+	color: steelblue;
+}
+.w3-display-middleleft {
+    position: absolute;
+    left: 0;
+    bottom: 20%
+}
+
+
+
+#levelAd {
+	animation: incBarAd;
+	animation-fill-mode:  forwards;
+	animation-duration: 4s;
+}
+#levelPh {
+	animation: incBarPh;
+	animation-fill-mode:  forwards;
+	animation-duration: 5s;
+}
+#levelI {
+	animation: incBarI;
+	animation-fill-mode:  forwards;
+	animation-duration: 6s;
+}
+#levelMd {
+	animation: incBarMd;
+	animation-fill-mode:  forwards;
+	animation-duration: 7s;
+}
+#levelEn {
+	animation: incBarEn;
+	animation-fill-mode:  forwards;
+	animation-duration: 8s;
+}
+#levelPt {
+	animation: incBarPt;
+	animation-fill-mode:  forwards;	
+	animation-duration: 9s;
+}
+#levelJp {
+	animation: incBarJp;
+	animation-fill-mode:  forwards;	
+	animation-duration: 10s;
+}
+
+@-webkit-keyframes incBarAd {
+	from {width: 0%;}
+	to {width: 90%;}
+
+}
+@-webkit-keyframes incBarPh {
+	from {width: 0%;}
+	to {width: 80%;}
+}
+@-webkit-keyframes incBarI {
+	from {width: 0%;}
+	to {width: 75%;}
+}
+@-webkit-keyframes incBarMd {
+	from {width: 0%;}
+	to {width: 50%;}
+}
+@-webkit-keyframes incBarEn {
+	from {width: 0%;}
+	to {width: 95%;}
+}
+@-webkit-keyframes incBarPt {
+	from {width: 0%;}
+	to {width: 100%;}
+}
+@-webkit-keyframes incBarJp {
+	from {width: 0%;}
+	to {width: 95%;}
+}
+
+#txAd {
+	-webkit-animation-name: numbUp;
+	-webkit-animation-duration: 4s;
+}
+
+@-webkit-keyframes numbUp {
+	from {}
+}
+
+.jsSwing {
+
+}
+
+i:hover {
+	-webkit-animation-name: iSwing;
+	-webkit-animation-duration: 0.16s;
+	animation-timing-function:linear;
+	animation-iteration-count: 4;
+
+}
+
+
+
+
+@-webkit-keyframes iSwing {
+	from {    transform: rotate(-20deg);}
+	 to {transform: rotate(20deg);}
+} 
+
+
+/* effects in my picture */
+
+img {
+	width:  100%;
+	position: centered;
+	filter: brightness(300%);
+	animation: photoEffect;
+	animation-fill-mode:  forwards;
+	animation-duration: 4s;
+
+}
+@-webkit-keyframes photoEffect {
+	from {filter: brightness(250%) grayscale(100%);}
+	to {filter: brightness(100%) grayscale(0%);}}
