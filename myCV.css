@@ -13,70 +13,79 @@
 
 
 
-#levelAd {
-	animation: incBarAd;
-	animation-fill-mode:  forwards;
-	animation-duration: 4s;
-}
-#levelPh {
-	animation: incBarPh;
-	animation-fill-mode:  forwards;
-	animation-duration: 5s;
-}
-#levelI {
-	animation: incBarI;
-	animation-fill-mode:  forwards;
-	animation-duration: 6s;
-}
-#levelMd {
-	animation: incBarMd;
+#level50 {
+	animation: incBar50;
 	animation-fill-mode:  forwards;
 	animation-duration: 7s;
 }
-#levelEn {
-	animation: incBarEn;
-	animation-fill-mode:  forwards;
-	animation-duration: 8s;
-}
-#levelPt {
-	animation: incBarPt;
-	animation-fill-mode:  forwards;	
-	animation-duration: 9s;
-}
-#levelJp {
-	animation: incBarJp;
+#level60 {
+	animation: incBar60;
 	animation-fill-mode:  forwards;	
 	animation-duration: 10s;
 }
+#level70 {
+	animation: incBar70;
+	animation-fill-mode:  forwards;	
+	animation-duration: 7s;
+}
+#level75 {
+	animation: incBar75;
+	animation-fill-mode:  forwards;
+	animation-duration: 6s;
+}
+#level80 {
+	animation: incBar80;
+	animation-fill-mode:  forwards;
+	animation-duration: 5s;
+}
+#level90 {
+	animation: incBar90;
+	animation-fill-mode:  forwards;
+	animation-duration: 4s;
+}
+#level95 {
+	animation: incBar95;
+	animation-fill-mode:  forwards;
+	animation-duration: 8s;
+}
+#level100 {
+	animation: incBar100;
+	animation-fill-mode:  forwards;	
+	animation-duration: 9s;
+}
 
-@-webkit-keyframes incBarAd {
+@-webkit-keyframes incBar50 {
+	from {width: 0%;}
+	to {width: 50%;}
+}
+@-webkit-keyframes incBar60 {
+	from {width: 0%;}
+	to {width: 60%;}
+}
+@-webkit-keyframes incBar70 {
+	from {width: 0%;}
+	to {width: 70%;}
+}
+@-webkit-keyframes incBar75 {
+	from {width: 0%;}
+	to {width: 75%;}
+}
+@-webkit-keyframes incBar80 {
+	from {width: 0%;}
+	to {width: 80%;}
+}
+@-webkit-keyframes incBar90 {
 	from {width: 0%;}
 	to {width: 90%;}
 
 }
-@-webkit-keyframes incBarPh {
-	from {width: 0%;}
-	to {width: 80%;}
-}
-@-webkit-keyframes incBarI {
-	from {width: 0%;}
-	to {width: 75%;}
-}
-@-webkit-keyframes incBarMd {
-	from {width: 0%;}
-	to {width: 50%;}
-}
-@-webkit-keyframes incBarEn {
+@-webkit-keyframes incBar95 {
 	from {width: 0%;}
 	to {width: 95%;}
 }
-@-webkit-keyframes incBarPt {
+@-webkit-keyframes incBar100 {
 	from {width: 0%;}
 	to {width: 100%;}
-}
-@-webkit-keyframes incBarJp {
-	from {width: 0%;}
-	to {width: 95%;}
 }
 
 #txAd {
@@ -111,7 +120,7 @@ i:hover {
 
 /* effects in my picture */
 
-img {
+.myAvatar {
 	width:  100%;
 	position: centered;
 	filter: brightness(300%);
